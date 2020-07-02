@@ -1,0 +1,426 @@
+		@font-face 
+		{
+			font-family:"Caviar Dreams";
+			src: url('CaviarDreams.ttf');
+		}
+
+		@font-face {
+			font-family: "Caviar Dreams";
+			font-style: italic;
+			src: url('CaviarDreams_Italic.ttf');
+		}
+
+		@font-face {
+			font-family: "Caviar Dreams";
+			font-weight: bold;
+			src: url('CaviarDreams_Bold.ttf');
+		}
+
+		body
+		{
+		    background-image: url("bg.jpg");
+		    width: 100%;
+		    height:1250px;
+		    background-attachment: fixed;
+		    background-size: cover;
+		    font-family:"Century Gothic";
+		}
+
+		.container
+		{
+			width: 48%;
+			height: 1100px;
+			margin-left: 25%
+		}
+
+		h1 
+		{
+		    font-size: 38px;
+		    text-align: center;
+		    color: #283149;/*#323232;#394A51;*/
+		    letter-spacing: 1.2px;
+
+		}
+
+		.one
+		{
+			background-color: #404B69;
+			width: 45%;
+			height: 40px;
+			float: left;
+			text-align: center; 
+			margin-top: -2.5%;
+			color:#DBEDF3/* white/*#F4E5C2*/;
+			letter-spacing: -0.5px;
+    		word-spacing: 2.2px;
+			font-size: 15px;
+			font-style: italic;
+			border-radius: 40px 40px 0 0;
+			font-size: 15px
+		}
+
+		.two
+		{
+			background-color: #404B69;
+			width: 45%;
+			height: 40px;
+			float: right;
+			text-align: center;
+			margin-top: -2.5%;
+			color: #DBEDF3/*white/*#F4E5C2*/;
+		    letter-spacing: -0.5px;
+		    word-spacing: 2.2px;
+			font-size: 15px;
+			font-style: italic;
+			border-radius: 40px 40px 0 0;
+			font-size: 15px
+
+		}
+
+		.two h4:hover
+		{
+			color: #FCBAD3;
+			font-size: 20px
+		}
+		img 
+		{	   
+		    width: 8.5%;
+		    float: left;
+		    margin-top: -4%;
+		    margin-left: 5px;
+		}
+
+		.img
+		{
+			background-color: #3b4552
+		}
+
+
+		.service  h4
+		{
+			margin-top: 3%
+		}
+
+		.frm
+		{
+			height: 100%;
+			background-color: #404B69;
+			margin-top: 6%;
+			border-radius: 0 0 20px 20px;
+			
+		}
+
+		.frm .title {
+		    margin-top: -3%;
+		    /*background-color: red;*/
+		    /* margin-left: 30%; */
+		   /* text-align: center;*/
+		    margin-left: 28%;
+		    /* padding-left: 43px; */
+		    font-size: 18px;
+		    float: left;
+		    word-spacing: 2.5px;
+		    letter-spacing: 0.8px;
+		    color: /*#F73859  #FFA06F*/#FCBAD3
+		}
+
+		.f
+		{
+		    width: 100%;
+		    /*background-color: red;  */
+		    float: left;			
+		}
+		.f label
+		{
+			margin-left: 15%;
+			color:#DBEDF3;
+			float: left;
+			margin-bottom: 2%;
+			margin-top: 0.5%
+
+		}
+
+
+		.f input[type="text"] 
+		{
+		    width: 40%;
+		    height: 25px;
+		    margin-right: 16.5%;
+		    float: right;
+		    margin-bottom: 2%;
+		    border-radius: 5px;
+		    border-color: #FCBAD3/*#f7385c91*/;
+		    padding-left: 34px;
+		    background-color: #283149;
+		    color: #DBEDF3;
+		    font-family: "Century Gothic";
+		}
+		.f select
+		{
+		    width: 45%;
+		    height: 30px;
+		    margin-right: 16.5%;
+		    float: right;
+		    margin-bottom: 2%;
+		    margin-top: -0.5%;
+		    border-radius: 5px;
+		    border-color: #FCBAD3/*#f7385c91*/;
+		    padding-left: 30px;
+		    background-color: #283149;
+		    color: #DBEDF3;
+		    font-family: "Century Gothic";
+		}
+
+		.f img
+		{
+		    width: 3%;
+		    float: right;
+		    margin-right: -3.8%;
+		    margin-top: 0.5%;
+		}
+
+		.f span
+		{
+			color: #FCBAD3
+		}
+
+	
+		@keyframes click-wave 
+		{
+		    0% 
+		    {
+			    height: 20px;
+			    width: 20px;
+			    opacity: 0.35;
+			    position: relative;
+		  	}
+		 	100% 
+		 	{
+			    height: 100px;
+			    width: 100px;
+			    margin-left: -40px;
+			    margin-top: -40px;
+			    opacity: 0;
+		    }
+		}
+
+		.option-input 
+		{
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    -ms-appearance: none;
+		    -o-appearance: none;
+		    appearance: none;
+		    top: 13.33333px;
+		    height: 20px;
+		    width: 20px;
+		    background: #cbd1d8;
+		    border: none;
+		    color: #fff;
+		    cursor: pointer;
+		    outline: none;
+		    position: relative;
+		    z-index: 1000;
+		}
+
+		.option-input:hover 
+		{
+		  	background: #9faab7;
+		}
+
+		.option-input:checked 
+		{
+		  	background: #FCBAD3;
+		}
+
+		.option-input:checked::before 
+		{
+		    height: 20px;
+		    width: 20px;
+		    position: absolute;
+		    content: '✔';
+		    display: inline-block;
+		    font-size: 15.66667px;
+		    text-align: center;
+		    line-height: 22px;
+		}
+
+		.option-input:checked::after 
+		{
+			-webkit-animation: click-wave 0.65s;
+			-moz-animation: click-wave 0.65s;
+			animation: click-wave 0.65s;
+			background: #f7385f;
+			content: '';
+			display: block;
+			position: relative;
+			z-index: 100;
+		}
+
+		.option-input.radio 
+		{
+		  	border-radius: 50%;
+		}
+
+		.option-input.radio::after
+		{
+		  	border-radius: 50%;
+		}
+
+		.part1 ,.part2
+		{
+			height: 260px;
+		    background-color: #283149;
+		    width: 22%;
+		    float: right;
+		    border-radius: 2%;
+		    margin-right: 39.5%;
+		    margin-bottom: 1%
+		}
+		.part2
+		{
+			margin-right: -45%;
+		}
+
+		.part1 h4,.part2 h4
+		{
+			text-align: center;
+		    color: #FCBAD3/*#00ADB5#f7385f*/;
+		    font-size: 18px;
+		    letter-spacing: 2px;
+		    font-style: italic;
+		    border-bottom: 1px solid;
+		    margin-top: 10px;
+		    margin-bottom: 10px
+		}
+
+		.f input[type="radio"] 
+		{
+		    margin-top: 0px;
+		    top: 5px;
+		    margin-left: 15px;
+		}
+
+		.part1 label,.part2 label
+		{
+			font-size: 16px;
+			color: white;
+			float: initial;
+		}
+
+		textarea
+		{
+			width: 40%;
+		    height: 100px;
+		    margin-right: 16.5%;
+		    float: right;
+		    margin-bottom: 2%;
+		    border-radius: 5px;
+		    border-color: #FCBAD3/*#f7385c91*/;
+		    padding-left: 34px;
+		    background-color: #283149;
+		    color: #DBEDF3;
+		    font-family: "Century Gothic";
+		}
+
+		input[type="file"],input[type="submit"]
+		{
+		    width: 26%;
+		    height: 30px;
+		    margin-right: 31.2%;
+		    float: right;
+		    margin-bottom: 2%;
+		    border-radius: 5px;
+		    border-color: #FCBAD3/*#f7385c91*/;
+		    padding-left: 34px;
+		    padding-top: 1%;
+		    background-color: #283149;
+		    color: #DBEDF3;
+		    font-family: "Century Gothic";
+		}
+
+		input[type="submit"]
+		{
+			width: 20%;
+		    height: 35px;
+		    /* margin-right: 68.5%; */
+		    margin-left: 64%;
+		    padding-left: 1%;
+ 		    padding-bottom: 1%;
+		    float: left;
+		    /* margin-bottom: 20%; */
+		    border-radius: 20px;
+		    border-color: #FCBAD3/*#f7385c91*/;
+		    background-color: #283149;
+		    color: #DBEDF3;
+		    font-family: "Century Gothic";
+		    /* left: 237px; */
+		}
+
+		.result
+		{
+			height: 200px;
+			background-color: #404B69;
+			border-radius: 20px ;
+			margin-top: 1%
+		}
+
+		.r
+		{
+			margin-top: 1%;
+			background-color: #DBEDF3;
+			height: 110px;
+			margin-bottom:2%
+		}
+
+		.date
+		{
+			width: 20%;
+			float: left;
+			text-align: center;
+			padding-top: 2%;
+		}
+
+		.photo
+		{
+			width: 20%;
+			float: left;
+		}
+
+		.photo img
+		{
+		    width: 85%;
+			margin-left: 7%;
+			margin-top: 1%;
+		}
+
+		.det
+		{
+			font-size: 13px;
+			width: 60%;
+			float: left;
+			text-align: center;		
+		}
+
+		.c
+		{
+			margin-top: 1%
+		}
+
+		.det h4
+		{
+			text-align: center;
+			letter-spacing: -0.2px;
+			margin-top: 1.5%;
+			margin-bottom: 2%;
+			font-size: 16px;
+			color:  #404B69;
+		}
+		.final
+		{
+			height: 20px;
+			background-color: #404B69;
+			border-radius: 0px 0px 20px 20px;
+			margin-top: -1.5%
+		}
+
